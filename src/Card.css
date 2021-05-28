@@ -1,0 +1,39 @@
+.card {
+  color: white;
+  padding: 15px;
+  height: 360px;
+  transition: transform 100ms;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  width: min-content;
+}
+
+.card:hover {
+  transform: scale(1.09);
+}
+
+.card > img {
+  height: 250px !important;
+  max-width: 92vw !important;
+  max-width: 250px;
+  object-fit: contain;
+  width: 199px;
+}
+
+.title > h4 {
+  font-weight: 300;
+}
+
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: thin solid;
+  padding: 5px 0px;
+  border-bottom-color: white;
+}
+
+.cardDescription {
+  margin: 5px;
+  font-size: 10px;
+}
